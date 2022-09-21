@@ -7,6 +7,10 @@ function ProjectItem({ name, about, technologies }) {
       <p>{about}</p>
       <div className="technologies">
         {/* render a <span> for each technology in the technologies array */}
+        <span>Bootstrap CSS</span>
+        <span>Redux</span>
+        <span>React</span>
+        <span>Rails</span>
       </div>
     </div>
   );
